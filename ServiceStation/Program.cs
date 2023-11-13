@@ -47,7 +47,7 @@ app.UseAuthorization();  // katada access thiyenn and e monda
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"); // routing eka setup kranwa
 
 
 
